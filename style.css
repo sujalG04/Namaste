@@ -1,0 +1,78 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.logo{
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+
+}
+h1{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+h3{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: auto;
+}
+.container{
+    max-width: 500px;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin: auto;
+    height: 65vh;
+    overflow-y: auto;
+}
+/* scrollbar hide */
+.container::-webkit-scrollbar{
+    display: none;
+    
+}
+
+.message{
+    background-color: rgb(236, 227, 227);
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 20px;
+    max-width: 200px;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+.btn{
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#send-box{
+    max-width: 900px;
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+}
+
+#message-input{
+    width: 40%;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
